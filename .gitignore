@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/node_modules
+
+# TypeScript build output
+/dist
+
+# Uploaded files
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/avatars/.gitkeep
+!/uploads/listings/.gitkeep
+
+# OS generated files
+.DS_Store
+
+
